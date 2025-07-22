@@ -18,10 +18,7 @@ co2-emissions-europe/
 │   ├── emissions_across_time_and_countries.png
 │   ├── emissions_by_country_2020.png
 │   └── yearly_emission_distribution.png
-```
 
-
----
 
 ## 🧰 Tools & Libraries
 
