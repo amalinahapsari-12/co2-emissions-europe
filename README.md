@@ -6,6 +6,20 @@ This project analyzes trends in CO₂ emissions across European countries betwee
 
 ## 📁 Repository Structure
 
+co2-emissions-europe/
+│
+├── README.md                       # Project overview
+├── CO2_Emissions_Analysis_Europe_2000_2023.ipynb  # Main notebook
+├── data/
+│   └── co2_emissions_cleaned_2000_2023.csv        # Cleaned dataset
+├── images/
+│   ├── change_from_2000_to_2023.png
+│   ├── co2_emissions_over_time.png
+│   ├── emissions_across_time_and_countries.png
+│   ├── emissions_by_country_2020.png
+│   └── yearly_emission_distribution.png
+```
+
 
 ---
 
@@ -62,4 +76,5 @@ Pull requests are welcome! For major changes, please open an issue first.
 
 ## 📄 License
 
-This project is open source under the (https://www.eea.europa.eu/en/datahub/datahubitem-view/5d252092-d328-40d8-bca2-c0734bd6143b).
+This project is open source under the [European Environment Agency (EEA)](https://www.eea.europa.eu/en/datahub/datahubitem-view/5d252092-d328-40d8-bca2-c0734bd6143b).
+
