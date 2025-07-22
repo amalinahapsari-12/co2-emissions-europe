@@ -62,4 +62,4 @@ Pull requests are welcome! For major changes, please open an issue first.
 
 ## 📄 License
 
-This project is open source under the [MIT License](LICENSE).
+This project is open source under the (https://www.eea.europa.eu/en/datahub/datahubitem-view/5d252092-d328-40d8-bca2-c0734bd6143b).
