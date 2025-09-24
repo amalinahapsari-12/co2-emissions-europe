@@ -1,77 +1,88 @@
-# 🌍 CO₂ Emissions in Europe (2000–2023)
+# 🚗 Tracking Europe’s car emissions and the road to cleaner mobility (2000–2023)
+Analysis of CO₂ emissions from new passenger cars across EU countries (2000–2023). The project tracks emission trends, compares country performance, and highlights gaps in Europe’s green transition.
 
-This project analyzes trends in CO₂ emissions across European countries between 2000 and 2023. Using data visualization and Python, we explore how emissions have changed over time, differences among countries, and the impact of environmental efforts.
-
----
-
-## 📁 Repository Structure
-
-co2-emissions-europe/
-│
-├── README.md                       # Project overview
-├── CO2_Emissions_Analysis_Europe_2000_2023.ipynb  # Main notebook
-├── data/
-│   └── co2_emissions_cleaned_2000_2023.csv        # Cleaned dataset
-├── images/
-│   ├── change_from_2000_to_2023.png
-│   ├── co2_emissions_over_time.png
-│   ├── emissions_across_time_and_countries.png
-│   ├── emissions_by_country_2020.png
-│   └── yearly_emission_distribution.png
-
-
-## 🧰 Tools & Libraries
-
-- **Python** (pandas, matplotlib, seaborn)
-- **Jupyter Notebook**
-- **Data Source**: Cleaned dataset of CO₂ emissions for European countries (2000–2023)
+## 📌 Project Overview  
+This project analyzes **CO₂ emissions from new passenger cars** across EU countries between **2000 and 2023**.  
+The goal is to:  
+- Track emission trends over time  
+- Compare country-level performance  
+- Highlight progress in reducing emissions  
+- Investigate gaps between best- and worst-performing countries  
 
 ---
 
-## 📊 Visualizations
-
-| Title                               | Preview                              |
-|------------------------------------|--------------------------------------|
-| Emissions Over Time                | ![CO₂ Over Time](images/co2_emissions_over_time.png) |
-| Emissions by Country (2020)        | ![By Country 2020](images/emissions_by_country_2020.png) |
-| Change in Emissions (2000–2023)    | ![Change](images/change_from_2000_to_2023.png) |
-| Yearly Emission Distribution       | ![Distribution](images/yearly_emission_distribution.png) |
-| Emissions Across Time & Countries  | ![Time & Country](images/emissions_across_time_and_countries.png) |
+## ❓ Key Questions  
+1. Which countries had the lowest and highest emissions in 2023?  
+2. How have emissions changed over time in the EU?  
+3. How much progress has each country made since 2000?  
+4. What is the gap between best- and worst-performing countries, and how has it evolved?  
 
 ---
 
-## 📌 Key Insights
+## 📊 Visualizations & Insights  
 
-- Many European countries have significantly reduced their emissions since 2000.
-- Western and Northern Europe show more consistent downward trends.
-- Outliers and sudden changes can indicate policy shifts or economic changes.
-
----
-
-## 💡 Project Goals
-
-- Visualize long-term emission trends
-- Compare emissions across countries and years
-- Provide digestible visuals for environmental communication
+### 1. Trend of CO₂ Emissions (2000–2023)  
+![Trend](visuals/viz_3_1_trend.jpg)  
+**Insight:** Emissions fell sharply after 2008, reflecting EU policy impact. Progress slowed after 2015, with widening gaps across regions.  
 
 ---
 
-## 📈 How to Reproduce
-
-1. Clone this repository
-2. Open the notebook: `CO2_Emissions_Analysis_Europe_2000_2023.ipynb`
-3. Make sure `co2_emissions_cleaned_2000_2023.csv` is in the `data/` folder
-4. Run all cells to recreate the visuals
+### 2. CO₂ Emissions by Country (2023)  
+![Emissions 2023](visuals/viz_3_2_emissions.jpg)  
+**Insight:** Nordic countries (e.g., Sweden, Denmark) lead with the lowest emissions, while Eastern and Southern Europe lag behind.  
 
 ---
 
-## 🤝 Contributing
-
-Pull requests are welcome! For major changes, please open an issue first.
+### 3. Change in Emissions Since 2000  
+![Change](visuals/viz_3_3_change.jpg)  
+**Insight:** All countries reduced emissions, but the pace is uneven — frontrunners cut nearly twice as much as laggards.  
 
 ---
 
-## 📄 License
+### 4. Best vs. Worst Performance Gap (2000–2023)  
+![Gap](visuals/viz_3_4_range.jpg)  
+**Insight:** The gap narrowed until 2015 but has widened again, showing acceleration in some regions and stagnation in others.  
 
-This project is open source under the [European Environment Agency (EEA)](https://www.eea.europa.eu/en/datahub/datahubitem-view/5d252092-d328-40d8-bca2-c0734bd6143b).
+---
+
+## ✅ Key Takeaways  
+- EU policies drove major emission reductions, especially post-2008.  
+- Nordic countries lead; Eastern and Southern Europe lag.  
+- Progress is uneven, showing need for stronger, consistent standards.  
+- Since 2015, the performance gap has widened.  
+
+---
+
+## 🌍 Overall Message  
+EU policies cut car emissions effectively, but **progress is uneven**. Nordic leaders are accelerating, while laggards risk slowing Europe’s green transition.  
+
+---
+
+## 📂 Repository Structure  
+CO2-Emissions-New-Cars/
+│── data/ # Raw and cleaned datasets
+│── notebooks/ # Jupyter analysis
+│── visuals/ # Saved .jpg visualizations
+│── README.md # Project overview (this file)
+
+---
+
+---
+
+## 📑 Dataset  
+- Source: [European Environment Agency (EEA)](https://www.eea.europa.eu/)  
+- Coverage: **2000–2023**  
+- Metric: Average CO₂ emissions (g/km) for new passenger cars  
+
+---
+
+## ⚙️ Tools Used  
+- **Python** (Pandas, Matplotlib, Seaborn)  
+- **Jupyter Notebook** for analysis  
+- **Excel** for initial exploration  
+
+---
+
+
+
 
