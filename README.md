@@ -1,7 +1,7 @@
-# 🚗 Tracking Europe’s car emissions and the road to cleaner mobility (2000–2023)
+# Tracking Europe’s car emissions and the road to cleaner mobility (2000–2023)
 Analysis of CO₂ emissions from new passenger cars across EU countries (2000–2023). The project tracks emission trends, compares country performance, and highlights gaps in Europe’s green transition.
 
-## 📌 Project Overview  
+## Project Overview  
 This project analyzes **CO₂ emissions from new passenger cars** across EU countries between **2000 and 2023**.  
 The goal is to:  
 - Track emission trends over time  
@@ -11,7 +11,7 @@ The goal is to:
 
 ---
 
-## ❓ Key Questions  
+## Key Questions  
 1. Which countries had the lowest and highest emissions in 2023?  
 2. How have emissions changed over time in the EU?  
 3. How much progress has each country made since 2000?  
@@ -19,7 +19,7 @@ The goal is to:
 
 ---
 
-## 📊 Visualizations & Insights  
+## Visualizations & Insights  
 
 ### 1. Trend of CO₂ Emissions (2000–2023)  
 ![Trend](visuals/viz_3_1_trend.jpg)  
@@ -45,7 +45,7 @@ The goal is to:
 
 ---
 
-## ✅ Key Takeaways  
+## Key Takeaways  
 - EU policies drove major emission reductions, especially post-2008.  
 - Nordic countries lead; Eastern and Southern Europe lag.  
 - Progress is uneven, showing need for stronger, consistent standards.  
@@ -53,7 +53,7 @@ The goal is to:
 
 ---
 
-## 🌍 Overall Message  
+## Overall Message  
 EU policies cut car emissions effectively, but **progress is uneven**. Nordic leaders are accelerating, while laggards risk slowing Europe’s green transition.  
 
 ---
@@ -69,19 +69,20 @@ CO2-Emissions-New-Cars/
 
 ---
 
-## 📑 Dataset  
+## Dataset  
 - Source: [European Environment Agency (EEA)](https://www.eea.europa.eu/)  
 - Coverage: **2000–2023**  
 - Metric: Average CO₂ emissions (g/km) for new passenger cars  
 
 ---
 
-## ⚙️ Tools Used  
+## Tools Used  
 - **Python** (Pandas, Matplotlib, Seaborn)  
 - **Jupyter Notebook** for analysis  
 - **Excel** for initial exploration  
 
 ---
+
 
 
 
