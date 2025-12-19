@@ -79,9 +79,13 @@ CO2-Emissions-New-Cars/
 ## Tools Used  
 - **Python** (Pandas, Matplotlib, Seaborn)  
 - **Jupyter Notebook** for analysis  
-- **Excel** for initial exploration  
-
+- **Excel** for initial exploration
 ---
+
+## Author
+
+**Amalina N. Hapsari**   
+🌐 [Notion Portfolio](https://www.notion.so/Average-CO-Emissions-from-New-Passenger-Cars-2000-2023-23726125746a8071a012db18bceb9bcf?source=copy_link)
 
 
 
